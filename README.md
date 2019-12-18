@@ -18,6 +18,8 @@
 
     > `./generate_nginx_conf.sh <UPSTREAM_NAME> <UPSTREAM_IP_PORT> <SERVERNAME>`
 
+----
+
 ## TODO
 
     [ ] 🚧 2.2 Run with Upstream Path with sub-directory _**[WIP]**_
@@ -39,3 +41,11 @@ _Assumptions & Tested on_
 > Linux Distribution : `CentOS 7.x`
 
 > Nginx Service : `systemctl status nginx`
+
+----
+
+##### ❤️ Inspired by <a href="https://www.digitalocean.com/community/questions/configure-nginx-for-multiple-subdomains?comment=51943">configure nginx for multiple subdomains</a>
+
+----
+
+<a href="https://www.paypal.me/ahchienong" target="_blank"><img src="https://www.paypalobjects.com/digitalassets/c/website/logo/full-text/pp_fc_hl.svg"/></a>
