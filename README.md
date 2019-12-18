@@ -18,10 +18,12 @@
 
     > `./generate_nginx_conf.sh <UPSTREAM_NAME> <UPSTREAM_IP_PORT> <SERVERNAME>`
 
-    🚧 2.2 Run with Upstream Path with sub-directory _**[WIP]**_
+## TODO
+    [ ] 🚧 2.2 Run with Upstream Path with sub-directory _**[WIP]**_
     
     > `./generate_nginx_conf.sh <UPSTREAM_NAME> <UPSTREAM_IP_PORT> <SERVERNAME> <UPSTREAM_PATH>`
 
+    [ ] 🚧 ask to run certbot command
 
 ----
 
