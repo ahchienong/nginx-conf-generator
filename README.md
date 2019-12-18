@@ -19,11 +19,14 @@
     > `./generate_nginx_conf.sh <UPSTREAM_NAME> <UPSTREAM_IP_PORT> <SERVERNAME>`
 
 ## TODO
+
     [ ] 🚧 2.2 Run with Upstream Path with sub-directory _**[WIP]**_
     
     > `./generate_nginx_conf.sh <UPSTREAM_NAME> <UPSTREAM_IP_PORT> <SERVERNAME> <UPSTREAM_PATH>`
 
-    [ ] 🚧 ask to run certbot command
+    [ ] 🚧 ask to run certbot command to generate letsencrypt SSL Cert.
+
+    [ ] 🚧 create auto renew letsencrypt SSL Cert via certbot.
 
 ----
 
