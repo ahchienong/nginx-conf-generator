@@ -20,4 +20,4 @@ _Assumptions_
 
 > Location of Template : `/etc/nginx/conf.d/template.conf-template`
 
-> Location of Nginx : `/etc/nginx`_`
+> Location of Nginx : `/etc/nginx`
