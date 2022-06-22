@@ -22,6 +22,12 @@
 
 ## TODO
 
+    [ ] 🚧 Feature: Add maintenance mode into template
+    
+    [ ] 🚧 Feature: Add simple scripts to toggle maintenance mode
+    
+    [ ] 🚧 Feature: Enhance toggle maintenance mode scripts & template to target specific site/domain/subdomain
+    
     [ ] 🚧 2.2 Run with Upstream Path with sub-directory _**[WIP]**_
     
     > `./generate_nginx_conf.sh <UPSTREAM_NAME> <UPSTREAM_IP_PORT> <SERVERNAME> <UPSTREAM_PATH>`
