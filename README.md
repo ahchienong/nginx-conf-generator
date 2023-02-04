@@ -54,4 +54,7 @@ _Assumptions & Tested on_
 
 ----
 
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/ahchienong)
+
 <a href="https://www.paypal.me/ahchienong" target="_blank"><img src="https://www.paypalobjects.com/digitalassets/c/website/logo/full-text/pp_fc_hl.svg"/></a>
