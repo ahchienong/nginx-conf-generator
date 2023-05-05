@@ -22,9 +22,9 @@
 
 ## TODO
 
-    [ ] 🚧 Feature: Add maintenance mode into template
+    [x] 🚧 Feature: Add maintenance mode into template
     
-    [ ] 🚧 Feature: Add simple scripts to toggle maintenance mode
+    [x] 🚧 Feature: Add simple scripts to toggle maintenance mode
     
     [ ] 🚧 Feature: Enhance toggle maintenance mode scripts & template to target specific site/domain/subdomain
     
