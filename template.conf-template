@@ -17,6 +17,19 @@ server {
   add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
 
   location / {
+
+    #workaround to ensure bingbot respect the noindex,nofollow,noarchive,nosnippet
+    sub_filter </head>
+        '<meta name="bingbot" content="noindex,nofollow,noarchive,nosnippet"></head>';
+    sub_filter_once on;
+
+    if (-f /etc/nginx/conf.d/maintenance.mode) {
+        root /var/www/html/maintenance/index.html;
+        expires 30d;
+        access_log off;
+        proxy_redirect off;
+    }
+    
     #rewrite ^(.*)$ /TEMPLATE_SUBDIRECTORY/$1 break;
     proxy_pass http://TEMPLATE_UPSTREAM_NAME;
     proxy_buffering on;
@@ -26,10 +39,5 @@ server {
     proxy_set_header X-Real-IP $remote_addr;
     proxy_set_header X-Forwarded-For $remote_addr;
     proxy_set_header Host $host;
-    
-    #workaround to ensure bingbot respect the noindex,nofollow,noarchive,nosnippet
-    sub_filter </head>
-        '<meta name="bingbot" content="noindex,nofollow,noarchive,nosnippet"></head>';
-    sub_filter_once on;
   }
 }
